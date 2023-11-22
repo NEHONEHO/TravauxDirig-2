@@ -73,28 +73,16 @@ public class Livre {
 		
 	}
 	
+
 	public static void main(String[] args) {
-		
+		Livre livre1 = new Livre("Dernier jour d'un condamné","Victor Hugo",100,1853);
+		Livre livre2 = new Livre(livre1);
+		System.out.println("Livre 1 : " + livre1);
+        System.out.println("Livre 2 (copie de Livre 1) : " + livre2);
+
+        livre2.setprix(8.99);
+        livre2.setannée(2000);
+
+        System.out.println("Livre 2 après modification : " + livre2);
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 }
