@@ -1,3 +1,4 @@
+package exercice1td2;
 
 public class Point {
 	private char nom;
